@@ -1,0 +1,12 @@
+[package]
+name = "Mucabrasil"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = {version = "*" , features = ["blocking"]}
+colored = "*"
+native-dialog = "*"
+lolcrab = "*"
+socks = "0.3.0"
+rayon = "*"
